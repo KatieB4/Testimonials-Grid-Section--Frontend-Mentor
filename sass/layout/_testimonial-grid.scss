@@ -1,19 +1,10 @@
 .section__testimonials {
-  // display: grid;
-  // grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 2.5rem;
   max-width: 90%;
   margin: 5rem auto;
-
-  @media only screen and (min-width: 43em) {
-    & {
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
-  }
 
   @media only screen and (min-width: 62.5em) {
     & {
