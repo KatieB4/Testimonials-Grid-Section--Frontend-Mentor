@@ -1,0 +1,22 @@
+body {
+  font-family: "Barlow Semi Condensed", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  border-bottom: 1px solid currentcolor;
+  transition: all 0.2s;
+
+  &:hover {
+    color: $color-grey-blue;
+    border: none;
+  }
+}
