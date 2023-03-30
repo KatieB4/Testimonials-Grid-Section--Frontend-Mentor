@@ -67,15 +67,12 @@ What I opted for instead, using flexbox on the smaller screens, and then switchi
 }
 ```
 
-Struggle Points:
-
-- determining where to place responsive breakpoints between the mobile and the large screen and how to lay out the cards
-- deciding how best to semantically break up the html (which tags to assign to the different elements)
-
 ### Continued development
 
-- I want to test making the grid layout repeatable, so that it can easily adapt if more testimonials are added
-- I attempted to make the cards more flexible with generic class names and using nth-child pseudo class a lot. I'm not sure this is the best approach as it makes the css a bit harder to read, but it was good practice to reinforce my understanding of the pseudo class instead of custom classes assigned to each card.
+- I struggled to determine where to place responsive breakpoints between the mobile and the large screen and how to lay out the cards, so I still need to practice this more.
+- Deciding how best to semantically break up the html (which tags to assign to the different elements) was also a bit of a challenge.
+- I want to test making the grid layout repeatable, so that it can easily adapt if more testimonials are added.
+- I attempted to make the cards more flexible with generic class names and using nth-child pseudo classes a lot. I'm not sure this is the best approach as it makes the css a bit harder to read, but it was good practice to reinforce my understanding of the pseudo class instead of custom classes assigned to each card.
 
 ### Useful resources
 
